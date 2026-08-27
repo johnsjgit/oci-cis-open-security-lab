@@ -1,0 +1,25 @@
+{
+  "findings": [
+    {
+      "tool": "lynis",
+      "asset": "demo-oracle-linux-host",
+      "severity": "medium",
+      "status": "open",
+      "summary": "Fictional example: review host hardening baseline."
+    },
+    {
+      "tool": "trivy",
+      "asset": "demo-api-image:1.0",
+      "severity": "high",
+      "status": "open",
+      "summary": "Fictional example: review a vulnerable dependency before deployment."
+    },
+    {
+      "tool": "wazuh",
+      "asset": "demo-oke-worker-01",
+      "severity": "low",
+      "status": "review",
+      "summary": "Fictional example: investigate repeated privileged-command events."
+    }
+  ]
+}
